@@ -34,3 +34,40 @@ https://rickandmortyapi.com
 
 Wie viele lebende Menschen gibt es?
 
+## Bonus-Aufgabe
+
+Super, Ihr seid gut vorangekommen! Bearbeitet jetzt diese freiwillige Bonusaufgabe, um Euer Verständnis zu vertiefen.
+
+
+    Binde die Book-API von https://my-json-server.typicode.com/Flooooooooooorian/BookApi/books in eurer Projekt BookLibrary ein.
+    Zum Beispiel GET https://my-json-server.typicode.com/Flooooooooooorian/BookApi/books/978-3-8362-8745-6.
+
+
+## Bonus Aufgabe Github Api
+
+
+    Stelle einen /api/github/<username> Endpunkt zuverfügung, der mittels der Github Api das Profil des jeweiligen Nutzers abruft.
+
+    Sei kreativ und ergänze deinen Server um weitere Endpunkte, die weitere Informationen von der Github API abrufen.
+
+
+
+## Aufgabe: MockWebServer
+
+Nutzt euer Rick&Morty Projekt
+
+
+    Schritt 1: Fügt die erforderlichen Abhängigkeiten hinzu, um MockWebServer in eurem Projekt zu verwenden.
+
+    Schritt 2: Implementiert die Integrationtests für eure API.
+
+    Falls ihr diese Aufgabe bereits früher abgeschlossen habt, dürft ihr die Bonusaufgabe auf der nächsten Seite bearbeiten.
+
+
+## Bonus-Aufgabe
+
+Wow, Ihr seid schnell! Wenn ihr mögt, bearbeitet zusätzlich diese freiwillige Bonusaufgabe.
+
+
+    Schreibt die Service-Tests(Unit-Tests) für eure Rick&Morty API.
+
