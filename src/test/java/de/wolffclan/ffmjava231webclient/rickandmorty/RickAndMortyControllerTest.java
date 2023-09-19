@@ -73,4 +73,34 @@ class RickAndMortyControllerTest {
                                  """
                 ));
     }
+
+    @Test
+    void getCharacterById() throws Exception {
+        mockWebServer.enqueue(new MockResponse()
+                .setHeader("Content-Type", "application/json")
+                .setBody(
+                        """
+                                  {
+                                     "id": 19,
+                                     "name": "Antenna Rick",
+                                     "species": "Human",
+                                     "status": "unknown"
+                                   }
+                                """
+                )
+        );
+
+        mockMvc.perform(MockMvcRequestBuilders.get("/api/characters/19"))
+                .andExpect(status().isOk())
+                .andExpect(content().json(
+                        """
+                                  {
+                                     "id": 19,
+                                     "name": "Antenna Rick",
+                                     "species": "Human",
+                                     "status": "unknown"
+                                   }
+                                 """
+                ));
+    }
 }
